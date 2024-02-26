@@ -13,9 +13,13 @@ Para rodar o projeto será necessario fazer a instalação do Xampp de preferenc
 
 # Detalhamento do Projeto
 
-Vamos começar do inicio, primeiramente gostaria de agradecer a AmpliMed pela oportunidade de estar realizando este teste, o projeto foi feito nos dias 24 e 25 de Fevereiro de 2024.
+Vamos começar do inicio, primeiramente gostaria de agradecer a AmpliMed pela oportunidade de estar realizando este teste, o projeto foi feito nos dias 24, 25 e 26 de Fevereiro de 2024.
 
 Como requisitado no projeto foi utilizado o Laravel/PHP para fazer as requisições as APIs de Clima e Cep bem como o salvamento dos dados para utilizar dentro do projeto como maneira de visualizar o historico de consultas.
+
+As Views podem ser econtradas no caminho resources/views, Controllers em app/http/controllers e app/http/controllers/api, Models em app/models e por fim o css está em public/assets/css.
+
+A estrutura de pastas foi feita apenas no modelo padrão do Laravel, a qual normalmente para projetos simples eu gosto de utilizar, utilizei apenas o arquivo web.php para rotas pois não haviam autenticações e utilizei de dois models para modelar minhas tabelas do banco de dados.
 
 # FrontEnd
 O FrontEnd foi feito de maneira simples, porém, com algumas construções um pouco mais criativas apenas para ser mais bonito aos olhos, utilizando apenas de código "vanilla" por assim dizer. Ele consiste de 4 views sendo a "comparar" para consulta e comparação de tempo entre cidade, "busca" para buscar uma cidade ou clima e salvar a mesma no banco de dados, "index" para visualizar as consultas podendo filtrar por cidade e "home" para poder selecionar qual a função desejada.
